@@ -13,7 +13,6 @@ import {
   TableRow,
 } from "@material-ui/core";
 import AppBar from "@material-ui/core/AppBar";
-import Avatar from "@material-ui/core/Avatar";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import { common } from "@material-ui/core/colors";
@@ -26,7 +25,6 @@ import axios from "axios"; // ✅ CORRECT
 import { DropzoneArea } from "material-ui-dropzone";
 import React, { useEffect, useState } from "react";
 import image from "./bg.png";
-import cblogo from "./cblogo.PNG";
 
 const ColorButton = withStyles((theme) => ({
   root: {
@@ -226,7 +224,6 @@ export const ImageUpload = () => {
             Potato Disease Classification
           </Typography>
           <div className={classes.grow} />
-          <Avatar src={cblogo}></Avatar>
         </Toolbar>
       </AppBar>
       <Container
